@@ -19,6 +19,7 @@ void xIM01::createFile(String file)
 {
     ManagedString str = str2mstr(file);
     FILE *fp = fopen(str.toCharArray(), "w");
+	fprintf(fp, "Hello fun SD Card World!");
     fclose(fp);
     //free(fp);
 }
