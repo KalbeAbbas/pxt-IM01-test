@@ -27,7 +27,7 @@
         "im01.ts"
     ],
     "testFiles": [
-        "tests.ts"
+        "test.ts"
     ],
     "public": true
 }
