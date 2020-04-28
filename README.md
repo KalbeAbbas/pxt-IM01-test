@@ -1,7 +1,6 @@
-
 > Open this page at [https://.github.io//](https://.github.io//)
 
-## Use as Extension
+## Use this extension
 
 This repository can be added as an **extension** in MakeCode.
 
@@ -10,7 +9,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/** and import
 
-## Edit this project ![Build status badge](https://github.com//workflows/MakeCode/badge.svg)
+## Edit this extension ![Build status badge](https://github.com//workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
