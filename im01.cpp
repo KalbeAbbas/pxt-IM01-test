@@ -25,7 +25,7 @@ void xIM01::createFile(String file)
 
 void xIM01::connect()
 {
-    static SDFileSystem *sd = new SDFileSystem(P0_21, P0_22, P0_23, P0_16, "sd");
+    //static SDFileSystem *sd = new SDFileSystem(P0_21, P0_22, P0_23, P0_16, "sd");
 }
 
 ManagedString str2mstr(String i)

@@ -2,7 +2,7 @@
 #define IM01_h
 
 #include "pxt.h"
-#include "SDFileSystem.h"
+//#include "SDFileSystem.h"
 using namespace pxt;
 
 namespace IM01 {
@@ -15,7 +15,7 @@ namespace IM01 {
         void createFile(String file);
         void readFile(String file);
         
-        SDFileSystem *sdptr;
+        //SDFileSystem *sdptr;
 
         private:
         
