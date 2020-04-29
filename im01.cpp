@@ -7,12 +7,14 @@ ManagedString str2mstr(String i);
 
 xIM01::xIM01(int mosi, int miso, int sclk, int cs)
 {
+	int i = 0;
 }
 
 void xIM01::createFolder(String folder)
 {
     /*ManagedString str = str2mstr(folder);
     mkdir(str.toCharArray(), 0777);*/
+		int i = 0;
 }
 
 void xIM01::createFile(String file)
@@ -21,11 +23,13 @@ void xIM01::createFile(String file)
     FILE *fp = fopen(str.toCharArray(), "w");
     fclose(fp);*/
     //free(fp);
+		int i = 0;
 }
 
 void xIM01::connect()
 {
     //static SDFileSystem *sd = new SDFileSystem(P0_21, P0_22, P0_23, P0_16, "sd");
+		int i = 0;
 }
 
 ManagedString str2mstr(String i)
@@ -58,6 +62,7 @@ namespace IM01 {
     //%
     void readFile(String File)
     {
+			int i = 0;
         
     }
 }

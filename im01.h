@@ -17,7 +17,7 @@ namespace IM01 {
         
         //SDFileSystem *sdptr;
 
-        private:
+        //private:
         
         // char buf[50];
         // struct stat buffer; 
