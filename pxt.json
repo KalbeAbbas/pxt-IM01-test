@@ -7,8 +7,6 @@
         "core": "*"
     },
     "files": [
-        "im01.cpp",
-        "im01.h",
         "im01.ts"
     ],
     "testFiles": [

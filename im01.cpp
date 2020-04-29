@@ -1,4 +1,4 @@
-#include "im01.h"
+/*#include "im01.h"
 
 using namespace pxt;
 using namespace IM01;
@@ -12,23 +12,23 @@ xIM01::xIM01(int mosi, int miso, int sclk, int cs)
 
 void xIM01::createFolder(String folder)
 {
-    /*ManagedString str = str2mstr(folder);
-    mkdir(str.toCharArray(), 0777);*/
+    ManagedString str = str2mstr(folder);
+    mkdir(str.toCharArray(), 0777);
 		int i = 0;
 }
 
 void xIM01::createFile(String file)
 {
-    /*ManagedString str = str2mstr(file);
+    ManagedString str = str2mstr(file);
     FILE *fp = fopen(str.toCharArray(), "w");
-    fclose(fp);*/
+    fclose(fp);
     //free(fp);
 		int i = 0;
-}
+}*/
 
-void xIM01::connect()
+/*void xIM01::connect()
 {
-    //static SDFileSystem *sd = new SDFileSystem(P0_21, P0_22, P0_23, P0_16, "sd");
+    static SDFileSystem *sd = new SDFileSystem(P0_21, P0_22, P0_23, P0_16, "sd");
 		int i = 0;
 }
 
@@ -65,4 +65,4 @@ namespace IM01 {
 			int i = 0;
         
     }
-}
+}*/

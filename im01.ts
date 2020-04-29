@@ -7,7 +7,7 @@
 * IM01 block
 */
 //% color=#444444 icon="\uf0eb"
-namespace IM01 {
+/*namespace IM01 {
 
     //%blockId=IM01_cconnect
     //%block="IM01 connect"
@@ -38,4 +38,4 @@ namespace IM01 {
     }
 
     connect();
-}
+}*/
