@@ -11,15 +11,15 @@ xIM01::xIM01(int mosi, int miso, int sclk, int cs)
 
 void xIM01::createFolder(String folder)
 {
-    ManagedString str = str2mstr(folder);
-    mkdir(str.toCharArray(), 0777);
+    /*ManagedString str = str2mstr(folder);
+    mkdir(str.toCharArray(), 0777);*/
 }
 
 void xIM01::createFile(String file)
 {
-    ManagedString str = str2mstr(file);
+    /*ManagedString str = str2mstr(file);
     FILE *fp = fopen(str.toCharArray(), "w");
-    fclose(fp);
+    fclose(fp);*/
     //free(fp);
 }
 
